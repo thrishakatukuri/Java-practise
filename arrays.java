@@ -1,5 +1,5 @@
 // import java.util.Arrays;
-import java.util.Scanner;
+// import java.util.Scanner;
 public class arrays {
     public static void main(String[] args) {
         // int[][] students = {{40,50,45,67,99},{78,88,41,54,99}};
@@ -95,7 +95,7 @@ public class arrays {
 // System.out.println(count);
 String s3 = "you cannot change me";
 final String s8 = " you cannot";
-String s9 = s8 + " change me";
+// String s9 = s8 + " change me";
 System.out.println(s3 == s8);
 
 //DSA

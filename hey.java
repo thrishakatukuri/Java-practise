@@ -21,13 +21,13 @@ public class hey {
 
 String vowel = "thrishakatukuri";
 String list = "AEIOUaeiou";
-String vowel2 = "";
+// String vowel2 = "";
 int count = 0;
 
 for(int i=0; i < vowel.length(); i++){
    char ch = vowel.charAt(i);
    if (list.indexOf(ch) != -1) { 
-       vowel2 += ch;
+    //    vowel2 += ch;
    count++;
 
   
