@@ -1,3 +1,4 @@
+package Days;
 
 // public class Day1 {
 //       static int a= 10;

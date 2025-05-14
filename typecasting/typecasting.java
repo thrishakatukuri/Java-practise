@@ -1,3 +1,4 @@
+package typecasting;
 public class typecasting {
     public static void main(String[] args) {
         byte a = 127;

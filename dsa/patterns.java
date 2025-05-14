@@ -1,4 +1,4 @@
-package dsa;
+package DSA;
 import java.util.Scanner;
 public class patterns {
     public static void main(String[] args) {
