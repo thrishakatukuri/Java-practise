@@ -1,4 +1,4 @@
-package Algorithms;
+package DSA;
 
 public class Eofapa {
     public static void main(String[] args) {
