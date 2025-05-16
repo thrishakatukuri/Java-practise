@@ -7,6 +7,9 @@ public class Eofapa {
         obj.prime(30);
         obj.fibonacci(10);
         obj.Armstrong(153);
+        obj.Wholenum(5);
+        obj.Naturalnum(5);
+
     }
 
     void evenodd(int a) {
@@ -40,8 +43,8 @@ public class Eofapa {
     void fibonacci(int n) {
         int a = 0;
         int b = 1;
-        for(int i=0; i<=n; i++){
-        System.out.println(b);
+        for(int i=0; i<n; i++){
+        System.out.println("Fibonacci numbers : "+b);
             int temp = a+b;
             a =b;
             b =temp;
@@ -59,9 +62,26 @@ public class Eofapa {
             temp /=10;
         }
         if(sum == a){
-            System.out.println("Armstrong");
+            System.out.println(a+" -is an Armstrong");
         }else{
-            System.out.println("Not-Armstrong");
+            System.out.println(a+" is Not an Armstrong");
         }
+    }
+
+    Object Wholenum(int n){
+        for(int i=-5; i<=n;i++){
+            if (i>=0 ){
+                System.out.println("Whole numbers : "+i);
+            }
+        }
+        return null;
+    }
+    int Naturalnum(int n){
+        for(int i=-5; i<=n;i++){
+            if (i>0 ){
+                System.out.println("Natural numbers : "+i);
+            }
+        }
+        return 0;
     }
 }
